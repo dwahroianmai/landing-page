@@ -5,51 +5,62 @@
     
 }
 
+body {
+    background-color: rgb(234, 161, 30, 0.2);
+    color: #342112;
+}
+
 .logo {
     width: 70px;
     height: auto;
 }
 
 .top {
-    background-color: #332022;
+    background-color: #342112;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .quote {
-    margin: 50px;
+    background-color: rgb(234, 161, 30, 0.2);
     display: flex;
     justify-content: center;
 }
 
 .q {
+    margin-top: 20px;
+    width: 70vw;
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-end;
+    font-size: 48px;
 }
 
 .panel {
     width: 70vw;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 ul {
     list-style: none;
     display: flex;
     align-items: center;
-    color: yellow;
+    color: #fdfc6e;
     gap: 20px;
 }
 
 .epic {
-    width: 700px;
+    width: 600px;
     height: auto;
 }
 
 .container {
     width: 70vw;
-    background-color: #332022;
+    background-color: #342112;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
@@ -63,6 +74,7 @@ ul {
 
 button {
     margin-top: 15px;
+    margin-bottom: 15px;
     padding: 5px;
 
 }
@@ -88,10 +100,6 @@ h2 {
     margin: 30px;
 }
 
-.pic > p {
-    color: #332022;
-  }
-
 .pic > img {
     width: 300px;
     height: auto;
@@ -105,4 +113,18 @@ h2 {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
