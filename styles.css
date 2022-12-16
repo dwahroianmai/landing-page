@@ -8,7 +8,7 @@
 body {
     background-color: rgb(234, 161, 30, 0.2);
     color: #342112;
-    font-family: Genshin;
+    font-family: Genshin, sans-serif;
 }
 
 .logo {
@@ -67,7 +67,7 @@ h1 {
 
 button {
     border-color: #342112;
-    font-family: Genshin;
+    font-family: Genshin, sans-serif;
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
